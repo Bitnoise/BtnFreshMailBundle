@@ -1,0 +1,31 @@
+{
+    "name": "bitnoise/freshmail-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony bundle for freshmail api",
+    "keywords": [ "bitnoise", "freshmail"],
+    "homepage": "https://github.com/Bitnoise/BtnFreshMailBundle",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Bitnoise Team",
+            "homepage": "http://www.bitnoi.se/",
+            "email": "labs@bitnoi.se"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/symfony": "2.*",
+        "freshmail/rest-api": "dev-master"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "https://github.com/adam187/REST-API.git"
+        }
+    ],
+    "autoload": {
+        "psr-0": { "Btn\\FreshMailBundle": "" }
+    },
+    "target-dir": "Btn/FreshMailBundle"
+}

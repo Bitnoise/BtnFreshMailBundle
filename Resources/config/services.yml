@@ -1,0 +1,7 @@
+services:
+    btn.fresh_mail:
+        class: Btn\FreshMailBundle\Service\FreshMailService
+        arguments:
+            - %btn_fresh_mail.api_secret%
+            - %btn_fresh_mail.api_key%
+            - @logger
